@@ -1,5 +1,8 @@
 package Arrays;
 
+
+import static Arrays.ClassforUsedFunctions.maxfinder;
+
 public class BarChart {
     static void main() {
         int[] arr ={5,4,7,2};
@@ -19,14 +22,5 @@ public class BarChart {
         }
 
     }
-    public static int maxfinder(int[] arr){
-        int max=arr[0];
-        for (int i=1;i<arr.length;i++){
-            if (arr[i]>max){
-                max=arr[i];
-            }
-        }
-        return max;
 
-    }
 }
